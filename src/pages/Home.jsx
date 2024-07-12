@@ -6,6 +6,11 @@ const animations = [
     description: 'The to() method is used to animate a single element from a starting state to an ending state.',
     path: '/gsapto',
   },
+  {
+    title: 'GSAP From',
+    description: 'The from() method is used to animate a single element from an ending state to a starting state.',
+    path: '/gsapfrom',
+  },
 ];
 
 const Home = () => {

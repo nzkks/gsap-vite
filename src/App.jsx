@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { GsapTo, Home } from './pages';
+import { GsapFrom, GsapTo, Home } from './pages';
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/gsapto" element={<GsapTo />} />
+          <Route path="/gsapfrom" element={<GsapFrom />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>
