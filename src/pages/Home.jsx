@@ -22,6 +22,11 @@ const animations = [
     description: 'The timeline() method is used to create a timeline to manage multiple animations.',
     path: '/gsaptimeline',
   },
+  {
+    title: 'GSAP Stagger',
+    description: 'The stagger() method is used to animate multiple elements with a stagger effect.',
+    path: '/gsapstagger',
+  },
 ];
 
 const Home = () => {
