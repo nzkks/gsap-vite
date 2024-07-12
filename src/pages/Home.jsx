@@ -27,6 +27,11 @@ const animations = [
     description: 'The stagger() method is used to animate multiple elements with a stagger effect.',
     path: '/gsapstagger',
   },
+  {
+    title: 'GSAP ScrollTrigger',
+    description: 'The ScrollTrigger plugin is used to trigger animations based on the scroll position.',
+    path: '/gsapscrolltrigger',
+  },
 ];
 
 const Home = () => {
