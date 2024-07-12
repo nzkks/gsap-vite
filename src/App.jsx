@@ -1,7 +1,16 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import { GsapTo, Home } from './pages';
+
 const App = () => {
   return (
     <div className="bg-black min-h-screen w-full">
-      <h1 className="text-3xl font-bold underline">GSAP Animation</h1>
+      <Router>
+        <Routes>
+          <Route path="/gsapto" element={<GsapTo />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 };
