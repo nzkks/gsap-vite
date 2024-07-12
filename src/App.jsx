@@ -1,8 +1,8 @@
 const App = () => {
   return (
-    <>
-      <div>GSAP Animation</div>
-    </>
+    <div className="bg-black min-h-screen w-full">
+      <h1 className="text-3xl font-bold underline">GSAP Animation</h1>
+    </div>
   );
 };
 
