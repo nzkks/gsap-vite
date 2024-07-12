@@ -17,6 +17,11 @@ const animations = [
       'The fromTo() method is used to animate a single element from a starting state to an ending state and vice versa.',
     path: '/gsapfromto',
   },
+  {
+    title: 'GSAP Timeline',
+    description: 'The timeline() method is used to create a timeline to manage multiple animations.',
+    path: '/gsaptimeline',
+  },
 ];
 
 const Home = () => {
