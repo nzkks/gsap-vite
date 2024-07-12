@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { GsapFrom, GsapTo, GsapFromTo, GsapTimeline, GsapStagger, Home, GsapScrollTrigger } from './pages';
+import { GsapFrom, GsapTo, GsapFromTo, GsapTimeline, GsapStagger, Home, GsapScrollTrigger, GsapText } from './pages';
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
           <Route path="/gsaptimeline" element={<GsapTimeline />} />
           <Route path="/gsapstagger" element={<GsapStagger />} />
           <Route path="/gsapscrolltrigger" element={<GsapScrollTrigger />} />
+          <Route path="/gsapText" element={<GsapText />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>

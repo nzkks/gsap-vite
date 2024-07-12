@@ -32,6 +32,11 @@ const animations = [
     description: 'The ScrollTrigger plugin is used to trigger animations based on the scroll position.',
     path: '/gsapscrolltrigger',
   },
+  {
+    title: 'GSAP Text',
+    description: 'Learn how to animate text with GSAP.',
+    path: '/gsaptext',
+  },
 ];
 
 const Home = () => {
